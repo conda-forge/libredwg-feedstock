@@ -1,5 +1,5 @@
 {% set name = "libredwg" %}
-{% set version = "0.8.2337" %}
+{% set version = "0.8.2344" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/LibreDWG/libredwg/releases/download/{{ version }}/libredwg-{{ version }}.tar.gz
-    sha256: 910166de0ec945801a285e41cdd3b0d07a41b2c832fa2da52457e9c755535d8b
+    sha256: e5c7938a00cc5c639af62fa356002f9b868308d79a24e56f6338736cd56f86c8
     patches:
       - swig4.patch
   - url: https://raw.githubusercontent.com/LibreDWG/libredwg/{{ version }}/build-aux/git-version-gen

@@ -7,8 +7,8 @@ package:
 
 source:
   - url: https://github.com/LibreDWG/libredwg/releases/download/{{ version }}/libredwg-{{ version }}.tar.gz
-    sha256: 9bfe3d80d3e1b8ec4f67d73476c422e44208c90ad70bd4827131b903cab6a7ea
-  - url: https://raw.githubusercontent.com/LibreDWG/libredwg/{{ version }}/build-aux/git-version-gen
+    sha256: a3080baa8d6da46abfa9856848821f808357563db7bc5a822483767ee9cba5ae
+  - url: https://raw.githubusercontent.com/LibreDWG/libredwg/0.9.3.2543/build-aux/git-version-gen
     sha256: 129de06e36ec87882ff12a44baec1cabb1cc0fa034db4495e7d33632f4abcb01
 
 build:

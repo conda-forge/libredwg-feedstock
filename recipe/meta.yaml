@@ -1,5 +1,5 @@
 {% set name = "libredwg" %}
-{% set version = "0.9.3.2600" %}
+{% set version = "0.10.1.2722" %}
 
 package:
   name: {{ name }}

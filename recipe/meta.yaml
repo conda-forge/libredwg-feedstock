@@ -1,6 +1,6 @@
 {% set name = "libredwg" %}
-{% set version = "0.10.1.2744" %}
-{% set sha256 = "4a98592923a6ed1573204b9832a528c949cdd02759bc777be0ebb4cc001dc027" %}
+{% set version = "0.10.1.2986" %}
+{% set sha256 = "129de06e36ec87882ff12a44baec1cabb1cc0fa034db4495e7d33632f4abcb01" %}
 {% set sha256_git_version_gen = "129de06e36ec87882ff12a44baec1cabb1cc0fa034db4495e7d33632f4abcb01" %}
 
 
@@ -56,10 +56,10 @@ about:
   license_file: COPYING
   summary: A free C library to handle DWG files.
   description: |
-        GNU LibreDWG is a free C library to handle DWG files.
-        It aims to be a free replacement for the OpenDWG libraries.
-        DWG is the native file format of AutoCAD.
+    GNU LibreDWG is a free C library to handle DWG files.
+    It aims to be a free replacement for the OpenDWG libraries.
+    DWG is the native file format of AutoCAD.
 
 extra:
   recipe-maintainers:
-        - looooo
+    - looooo

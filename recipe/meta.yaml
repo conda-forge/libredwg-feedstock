@@ -16,7 +16,6 @@ source:
 
 build:
   number: 0
-  skip: true  # [win]
 
 requirements:
   build:
@@ -36,16 +35,16 @@ requirements:
     - m4  # [unix]
     - texinfo  # [unix]
   host:
-    - python
+    - python  # [unix]
     - libxml2
     - perl
   run:
-    - python
+    - python  # [unix]
     - libxml2
 
 test:
   imports:
-    - LibreDWG
+    - LibreDWG  # [unix]
 
 about:
   home: https://www.gnu.org/software/libredwg/

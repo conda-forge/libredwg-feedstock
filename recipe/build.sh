@@ -19,7 +19,7 @@ case `uname` in
         export PATH="$PREFIX/Library/bin:$BUILD_PREFIX/Library/bin:$RECIPE_DIR:$PATH"
         export CFLAGS="-MD -I$PREFIX/Library/include -O2 -DM4RI_USE_DLL"
         export LDFLAGS="$LDFLAGS -L$PREFIX/Library/lib"
-        ./configure --prefix="$PREFIX/Library" --libdir="$PREFIX/Library/lib" --disable-sse2
+        ./configure --prefix="$PREFIX/Library" --libdir="$PREFIX/Library/lib" --disable-sse2  --disable-python
         ;;
 esac
 

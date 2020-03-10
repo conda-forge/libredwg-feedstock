@@ -1,6 +1,6 @@
 {% set name = "libredwg" %}
-{% set version = "0.10.1.2744" %}
-{% set sha256 = "4a98592923a6ed1573204b9832a528c949cdd02759bc777be0ebb4cc001dc027" %}
+{% set version = "0.10.1.2981" %}
+{% set sha256 = "337432d2ad6229332d85450c05925ce3b4b99d74c25c9e6e1c7763947a048660" %}
 {% set sha256_git_version_gen = "129de06e36ec87882ff12a44baec1cabb1cc0fa034db4495e7d33632f4abcb01" %}
 
 
@@ -16,7 +16,6 @@ source:
 
 build:
   number: 0
-  skip: true  # [win]
 
 requirements:
   build:
@@ -36,16 +35,16 @@ requirements:
     - m4  # [unix]
     - texinfo  # [unix]
   host:
-    - python
+    - python  # [unix]
     - libxml2
     - perl
   run:
-    - python
+    - python  # [unix]
     - libxml2
 
 test:
   imports:
-    - LibreDWG
+    - LibreDWG  # [unix]
 
 about:
   home: https://www.gnu.org/software/libredwg/

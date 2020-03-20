@@ -15,7 +15,7 @@ source:
     sha256: {{ sha256_git_version_gen }}
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:

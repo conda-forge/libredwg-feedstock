@@ -1,7 +1,6 @@
 {% set name = "libredwg" %}
-{% set version = "0.10.1.3200" %}
-{% set sha256 = "5cf50b841ed7dc967e3e235c52373a6805a7bdf4ea6f969f949697b2bcec79f4" %}
-{% set sha256_git_version_gen = "129de06e36ec87882ff12a44baec1cabb1cc0fa034db4495e7d33632f4abcb01" %}
+{% set version = "0.10.1.3229" %}
+{% set sha256 = "457fe7f53f364be81b8485e29e59b22bb1f2f05cc0d8f3f8bed703b5447a9194" %}
 
 
 package:
@@ -12,7 +11,7 @@ source:
   - url: https://github.com/LibreDWG/libredwg/releases/download/{{ version }}/libredwg-{{ version }}.tar.gz
     sha256: {{ sha256 }}
   - url: https://raw.githubusercontent.com/LibreDWG/libredwg/0.9.3.2543/build-aux/git-version-gen
-    sha256: {{ sha256_git_version_gen }}
+    sha256: 129de06e36ec87882ff12a44baec1cabb1cc0fa034db4495e7d33632f4abcb01
 
 build:
   number: 0

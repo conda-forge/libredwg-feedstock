@@ -5,7 +5,7 @@ Home: https://www.gnu.org/software/libredwg/
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A free C library to handle DWG files.
 

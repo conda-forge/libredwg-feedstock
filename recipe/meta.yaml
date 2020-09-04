@@ -1,6 +1,6 @@
 {% set name = "libredwg" %}
-{% set version = "0.11" %}
-{% set sha256 = "222ee04a2ddc06fc15da3036780a9b19812db136c520122bb428e801b89477c1" %}
+{% set version = "0.11.3788" %}
+{% set sha256 = "ea3f8ca7fe07b5ef562c6b76efee42e9d42268470f44a62d6aa52751efeba1f4" %}
 
 
 package:

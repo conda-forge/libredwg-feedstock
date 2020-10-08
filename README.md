@@ -5,9 +5,13 @@ Home: https://www.gnu.org/software/libredwg/
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libredwg-feedstock/blob/master/LICENSE.txt)
 
 Summary: A free C library to handle DWG files.
+
+Development: http://savannah.gnu.org/projects/libredwg/
+
+Documentation: https://www.gnu.org/software/libredwg/
 
 GNU LibreDWG is a free C library to handle DWG files.
 It aims to be a free replacement for the OpenDWG libraries.

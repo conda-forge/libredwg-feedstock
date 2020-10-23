@@ -34,11 +34,11 @@ requirements:
     - m4  # [unix]
     - texinfo  # [unix]
   host:
-    - python  # [unix]
+    - python
     - libxml2
     - perl
   run:
-    - python  # [unix]
+    - python
     - libxml2
 
 test:

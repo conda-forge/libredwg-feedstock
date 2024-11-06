@@ -14,12 +14,14 @@ source:
     sha256: 129de06e36ec87882ff12a44baec1cabb1cc0fa034db4495e7d33632f4abcb01
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
     - {{ compiler("c") }}  # [unix]
+    - {{ stdlib("c") }}    # [unix]
     - {{ compiler('m2w64_c') }}  # [win]
+    - {{ stdlib("m2w64_c") }}    # [win]
     - swig
     - m2-autoconf  # [win]
     - m2-make  # [win]

@@ -1,15 +1,15 @@
 channel_sources:
 - conda-forge
+- conda-forge/label/python_rc,conda-forge
 channel_targets:
 - conda-forge main
 libxml2:
-- '2.9'
+- '2'
 m2w64_c_compiler:
+- m2w64-toolchain
+m2w64_c_stdlib:
 - m2w64-toolchain
 perl:
 - 5.32.1
-pin_run_as_build:
-  libxml2:
-    max_pin: x.x
 target_platform:
 - win-64
